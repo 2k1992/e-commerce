@@ -11,5 +11,11 @@ body {
 }
 
 .primary-button {
-  @apply self-center w-10/12 rounded-md  bg-amber-300 p-2 shadow font-semibold outline-none hover:bg-amber-400 active:bg-amber-500;
+  @apply self-center w-10/12 rounded-md bg-amber-300 p-2 shadow font-semibold outline-none hover:bg-amber-400 active:bg-amber-500;
+}
+
+input,
+select,
+textarea {
+  @apply rounded border p-2  outline-none ring-indigo-300  focus:ring;
 }
