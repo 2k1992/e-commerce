@@ -14,7 +14,7 @@ export default function ProductItem({ product }) {
       <div className="flex flex-col justify-center p-5">
         <div className="flex justify-between">
           <div>
-            <Link href={"/product/${product.slug}"}>
+            <Link href={`/product/${product.slug}`}>
               <h2 className="text-lg">{product.name}</h2>
             </Link>
             <p className="mb-2">{product.brand}</p>
